@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="app-header">
+        <h1>Todo's Manager</h1>
+        <nav class="menu-navigation"></nav>
+      </header>
+
+      <main class="content-wrapper">
+        <form action="" method="get" id="todoForm">
+          <label for="addTodo">Notez une chose a faire ...</label>
+          <input type="text" name="addTodo" id="addTodo" />
+          <input type="submit" value="Ajouter la Todo" />
+        </form>
+
+        <div id="todoList"></div>
+        <button class="allTodos">See all Todo</button>
+      </main>
+
+      <footer class="app-footer">
+        <p>&copy; 2024 ToDo Manager. All rights reserved.</p>
+      </footer>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
